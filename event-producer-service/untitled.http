@@ -1,0 +1,11 @@
+
+###
+
+POST http://localhost:3000/message HTTP/1.1
+content-type: application/json
+
+{
+    "topic": "test-topic",
+    "data": "Wed, 21 Oct 2015 18:27:50 GMT",
+    "key": "1"
+}
